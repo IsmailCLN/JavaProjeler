@@ -16,10 +16,6 @@ public class KdvHesaplayıcı {
         System.out.println("KDV Tutarı:" + kdvtutari);
         System.out.println("KDV'siz Fiyat:" + kdvsizfiyat);
         System.out.println("KDV'li Fiyat:" + kdvlifiyat);
-
-
-
-
     }
 
 }
