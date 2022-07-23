@@ -1,0 +1,20 @@
+package Projeler;
+
+import java.util.Scanner;
+
+public class HipotenusBulucu {
+    public static void main(String[] args) {
+        int a, b;
+        double hipotenus;
+        Scanner inp = new Scanner(System.in);
+
+        System.out.println("Lütfen Birinci Kenar Uzunluğunu Giriniz: ");
+        a = inp.nextInt();
+        System.out.println("Lütfen İkinci Kenar Uzunluğunu Giriniz:");
+        b = inp.nextInt();
+
+        hipotenus = Math.sqrt((a*a) + (b*b));
+
+        System.out.println("Hipotenüs Uzunluğu = "+hipotenus);
+    }
+}
